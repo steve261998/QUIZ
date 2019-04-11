@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Mar, 2019, 11:03:48 PM
+    Author     : ROCHELLE
+*/
+
+body { 
+    
+    background-color:#2b2b2b;
+    font-family: sans-serif;
+}
+#radio{
+  display: block;
+ /*osition: relative;*/
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.contain {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+ position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container{
+    width:30%;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    background:#fff;
+    margin: 50px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}  
+.container nav{
+     border-bottom: 1px solid #ccc;
+    
+}
+
+h2{
+    
+
+.container div{
+    padding:5px;
+   
+}
+    margin-top:30px;
+}
+.container div input{
+    width:100%;
+    border:1px solid #ccc;
+    padding:10px;
+    margin:10px 0;
+    box-sizing:border-box;
+    outline:none;
+    border-radius:3px;
+    font-size:14px;
+    transition:all 0.3s;
+}
+.container div input:focus{
+    border-color:orange;
+}
+.container button{
+    background:orange;
+    width:100%;
+    padding:15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor:pointer;
+    transition:all 0.3s;
+    border:0;
+    
+}
+.container button[type="cancelbtn"]{
+    background:blue;
+}
+#logout{
+    width:30%;
+}
+    
+
+.container button:hover{
+    opacity:0.9;
+}
+
+
+/*form input[type="radio"]{
+    
+    margin-top: 1px;
+    cursor: pointer;
+    line-height:18px;
+    float:left;
+     vertical-align: top;
+     
+     
+}
+.radio-inline{
+    float:left;
+   
+
+}*/
+#ty{
+    margin:50px 50px;
+    
+   
+    
+}
+
